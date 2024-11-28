@@ -1,0 +1,370 @@
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* general */
+
+
+html, 
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #333;
+}
+
+
+h1,
+h2,
+h3 {
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #222;
+    text-decoration: none;
+}
+
+.separator {
+    margin: 20px auto;
+    height: 10px;
+    width: 100px;
+    background: #111;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 25px;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+
+.btn-primary {
+    background: white;
+    color: #222;
+}
+
+.btn-dark {
+    background: #222;
+    color: white;
+}
+
+.btn-dark:hover {
+    background: white;
+    color: #222;
+    border: 1px solide #222;
+}
+
+.btn-primary:hover {
+    background: #222;
+    color: white;
+}
+
+.container {
+    max-width: 1000px;
+    display: block;
+    margin: auto;
+}
+
+.my-10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.my-20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.my-30 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+/* header */
+
+
+.header {
+    background: url(../img/papier-texture-lisse-noir_53876-96064.avif);
+    overflow: auto;
+    line-height: 1.7em;
+}
+
+.header nav h1 {
+    float:left;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+
+.header nav h1 a {
+    color: #b1b1b1;
+}
+
+.header nav ul {
+    float: right;
+    list-style: none;
+}
+
+.header nav ul li {
+    float: left;
+}
+
+.header nav ul li a {
+    color: #b1b1b1;
+    padding: 20px;
+    display: block;
+}
+
+.header nav ul li a:hover {
+    background: #000000;
+}
+
+.active {
+    background: #333333;
+}
+
+/* vp */
+
+.vp {
+    height: 700px;
+    background: url(../img/papier-texture-lisse-noir_53876-96064.avif) center center;
+    background-size: cover;
+    text-align: center;
+}
+
+
+.vp2 {
+    background: url(../img/papier-texture-lisse-noir_53876-96064.avif);
+    background-size: cover;
+}
+
+.vp-content {
+    max-width: 600px;
+    padding-top: 170px;
+    color: white;
+    display: block;
+    margin: auto;
+}
+
+.vp-content h1 {
+    font-size: 50px;
+}
+
+.vp-content p {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    line-height: 1.9em;
+}
+
+
+/* features */
+
+
+.features {
+    text-align: center;
+    overflow: auto;
+    padding: 100px 0px 100px 0px;
+}
+
+.feature {
+    float: left;
+    width: 50%;
+}
+
+
+.person {
+    height: 350px;
+    backgroun: url(../img) center center/cover;
+}
+
+
+/* demande */
+
+.demande {
+    padding: 100px 0px 100px 0xp;
+    text-align: center;
+}
+
+/* footer */
+
+
+footer {
+    background: #222;
+    color: white;
+    padding: 30px 0px 30px 0px;
+}
+
+footer {
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+
+/* contact */
+
+.contact {
+    padding: 180px 0px 100px 0px;
+    min-height: 100vh;
+}
+
+
+.contact-form-container {
+    max-width: 600px;
+    margin: auto;
+}
+
+
+.contact-form-container form label {
+    display: block;
+    font-weight: 700px;
+}
+
+.contact-form-container form input, textarea {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: 1px solide #ddd;
+    border-radius: 3px;
+}
+
+
+.contact-form-container form textarea {
+    min-height: 80px;
+}
+
+
+/* pay */
+
+
+.pay1 {
+    width: 100px;
+    height: 100px;
+    border: solid 3px #ddd;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-left: 140px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    transition: all 0.5s ease;
+    object-fit: cover;
+}
+
+.pay1:hover {
+    transform: scale(1.2);
+    transition: transform 1s;
+}
+
+.pay2 {
+    width: 20%;
+    height: auto;
+    border: solid 3px #ddd;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-left: 140px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    transition: all 0.5s ease;
+    object-fit: cover;
+}
+
+.pay2:hover {
+    transform: scale(1.2);
+    transition: transform 1s;
+}
+
+
+.pay2 img {
+    width: 100%; /* L'image s'étend sur toute la largeur de la card */
+    height: 200px; /* Fixe la hauteur de l'image */
+    object-fit: cover; /* L'équivalent de background-size: cover */
+    object-position: center; /* Centre l'image */
+}
+
+
+/* header2 */
+
+.header2 {
+    background: url(../img/papier-texture-lisse-noir_53876-96064.avif);
+    overflow: auto;
+    line-height: 3em;
+    z-index: 10;
+}
+
+.header2 {
+    text-align: center;
+    color: rgb(255, 255, 255)
+}
+
+.iv {
+    color: rgb(255, 255, 255);
+    z-index: 1000;
+}
+
+
+/* humain */
+
+
+.hum1 {
+    width: 35%;
+    height: auto;
+    border: solid 3px #535353;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-left: 490px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    transition: all 0.5s ease;
+}
+
+.hum1:hover {
+    transform: scale(1.2);
+    transition: transform 1s;
+}
+
+.hum2 {
+    width: 35%;
+    height: auto;
+    border: solid 3px #ddd;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-left: 490px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    transition: all 0.5s ease;
+}
+
+.hum2:hover {
+    transform: scale(1.2);
+    transition: transform 1s;
+}
+
+.hum3 {
+    width: 20%;
+    height: auto;
+    border: solid 3px #ddd;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-left: 140px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    transition: all 0.5s ease;
+}
+
+.hum3:hover {
+    transform: scale(1.2);
+    transition: transform 1s;
+}
+
